@@ -22,8 +22,8 @@ In our project, we used 5V working voltage for ADC devive, and we set the clock 
 <img src="https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/form_voltage_frequency.JPG" width="500" ><br>
 
 ## Time sequence and state machine of FPGA
-The clock frequency of MCP3008/MCP3004 is 2.5 MHz.Therefore the periode is 400 ns.<br> 
-There are eleven bits during the WRITE state, so the durationWe of WRITE state is 4.4 microsecond.<br> 
+The clock frequency of MCP3008/MCP3004 is 2.5 MHz. Therefore the periode is 400 ns.<br> 
+There are eleven bits during the WRITE state and READ state, so the durationWe of WRITE state is 4.4 microsecond.<br> 
 We also set the others state's duration time as 4.4 microsecond to simply the state transferring.<br>
 
 
