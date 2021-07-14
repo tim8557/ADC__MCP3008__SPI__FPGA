@@ -1,12 +1,12 @@
 # ADC--MCP3008--FPGA
-## MCP3008/MCP3004
-MCP3008 is an anolog-to-digital converter. It is used to adapt the anolog siganal and transfrt<br > 
+## MCP3004/MCP3008
+MCP3004/MCP3008 are anolog-to-digital converters. They are used to adapt the anolog siganal and transfrt<br > 
 the anolog signal into ten bit digital signal.
 
 <img src="https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/m3008_ic.jpg" width="200" ><br>
 <br>
 ## Interface
-The MCP3008/MCP3004 use SPI(Serial Peripheral Interface) to communicate with the FPGA. The picture<br> 
+The MCP3004/MCP3008 use SPI(Serial Peripheral Interface) to communicate with the FPGA. The picture<br> 
 below shows the time we need to comply with for the communication between FPGA and MCP3004/MCP3008.<br>
 ![image](https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/communication_with_m3008_v2.JPG)
 
@@ -33,3 +33,7 @@ The picture shows the conditions to transfer the state.<br>
 
 ## Result
 We used the ADC to measure the voltage of battery and displayed the measurement result on the seven-seg display.<br>
+<img src="https://github.com/tim8557/ADC--MCP3008-MCP3004--FPGA/blob/main/images/result_1.5_voltage.jpg" width="500" ><br>
+<br>
+The measurement result of 3.3V voltage fom USB to TTL converter.<br>
+<img src="https://github.com/tim8557/ADC--MCP3008-MCP3004--FPGA/blob/main/images/result_3.3_voltage.jpg" width="500" ><br>
