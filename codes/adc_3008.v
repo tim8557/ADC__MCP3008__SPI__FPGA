@@ -35,11 +35,11 @@ assign data_bcd_vol = (data_bcd*20'd479)/20'd1023;
 parameter [2:0] INTIAL = 3'd0,
                 WAIT_START = 3'd1,
                 WRITE = 3'd2,
-				    READ = 3'd3,
-				    WAIT_END = 3'd4,
-				    END = 3'd5;
+		READ = 3'd3,
+		WAIT_END = 3'd4,
+		END = 3'd5;
 					 
-					 parameter WR_IN = 11'b000001_10010;
+parameter WR_IN = 11'b000001_10010;
 parameter cnt_clk_max = 8'd219;
 parameter cnt_max = 32'd49_999_999;
 
