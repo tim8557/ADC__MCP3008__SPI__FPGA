@@ -32,4 +32,4 @@ The picture shows the conditions to transfer the state.<br>
 <img src="https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/state_machine.JPG" width="700" ><br>
 
 ## Result
-We used the ADC to measure the voltage of battery and displayed the measurement result on the s
+We used the ADC to measure the voltage of battery and displayed the measurement result on the seven-seg display.<br>
