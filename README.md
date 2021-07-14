@@ -33,3 +33,7 @@ The picture shows the conditions to transfer the state.<br>
 
 ## Result
 We used the ADC to measure the voltage of battery and displayed the measurement result on the seven-seg display.<br>
+<img src="https://github.com/tim8557/ADC--MCP3008-MCP3004--FPGA/blob/main/images/result_1.5_voltage.jpg" width="500" ><br>
+<br>
+The measurement result of 3.3V voltage fom USB to TTL converter
+<img src="https://github.com/tim8557/ADC--MCP3008-MCP3004--FPGA/blob/main/images/result_1.5_voltage.jpg" width="500" ><br>
