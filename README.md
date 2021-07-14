@@ -23,4 +23,4 @@ In our project, we used 5V working voltage for ADC devive, and we set the clock 
 
 ## Time sequence and state machine of FPGA
 
-![image](https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/communication_with_m3008_v2.JPG)
+![image](https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/m3008_time_sequence_state.JPG)
