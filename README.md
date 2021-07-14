@@ -22,5 +22,7 @@ In our project, we used 5V working voltage for ADC devive, and we set the clock 
 <img src="https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/form_voltage_frequency.JPG" width="500" ><br>
 
 ## Time sequence and state machine of FPGA
+Our FPGA device's operation frequency is 50 MHz. We design six states in our project and set tSUCS<br>
+and tCHS as 4.4 micro second.
 
-![image](https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/m3008_time_sequence_state.JPG)
+![image](https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/m3008_time_sequence_state_v2.JPG)
