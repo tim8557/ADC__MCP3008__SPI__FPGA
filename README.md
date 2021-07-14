@@ -7,7 +7,7 @@ the anolog signal into ten bit digital signal.
 <br>
 ## Interface
 The MCP3008/MCP3004 use SPI(Serial Peripheral Interface) to communicate with the FPGA. The picture<br> 
-below showed the time we need to comply with for the communication between FPGA and MCP3004/MCP3008.<br>
+below shows the time we need to comply with for the communication between FPGA and MCP3004/MCP3008.<br>
 ![image](https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/communication_with_m3008_v2.JPG)
 
 <br>
@@ -23,8 +23,11 @@ In our project, we used 5V working voltage for ADC devive, and we set the clock 
 
 ## Time sequence and state machine of FPGA
 The clock frequency of MCP3008/MCP3004 is 2.5 MHz. Therefore the periode is 400 ns.<br> 
-There are eleven bits during the WRITE state and READ state, so the durationWe of WRITE state is 4.4 microsecond.<br> 
-We also set the others state's duration time as 4.4 microsecond to simply the state transferring.<br>
+There are eleven bits during the WRITE state and READ state, so the duration timw of WRITE state is 4.4 microsecond.<br> 
+We also set the others state's duration time as 4.4 microsecond to simply the state transition.<br>
 
+![image](https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/m3008_time_sequence_state_v2.JPG)<br>
+<br>
+The picture shows the conditions to transfer the state.<br>
+<img src="https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/state_machine.JPG" width="700" ><br>
 
-![image](https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/m3008_time_sequence_state_v2.JPG)
