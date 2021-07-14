@@ -31,3 +31,4 @@ We also set the others state's duration time as 4.4 microsecond to simply the st
 The picture shows the conditions to transfer the state.<br>
 <img src="https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/state_machine.JPG" width="700" ><br>
 
+## Result
