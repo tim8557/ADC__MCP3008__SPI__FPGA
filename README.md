@@ -11,4 +11,4 @@ below showed the time we need to comply with for the communication between FPGA 
 
 
 
-![image](https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/communication_with_m3008.JPG)
+![image](https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/communication_with_m3008_v2.JPG)
