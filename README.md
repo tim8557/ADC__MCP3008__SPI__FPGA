@@ -16,5 +16,5 @@ There are two parameters we need to care about when we communicate with MCP3004/
 <img src="https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/form_time_parameter.JPG" width="500" ><br>
 
 The form shows the clock frequency under different working voltage for MCP3004/MCP3008.<br>
-<img src="https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/form_time_parameter.JPG" width="500" ><br>
+<img src="https://github.com/tim8557/ADC--MCP3008--FPGA/blob/main/images/form_voltage_frequency.JPG" width="500" ><br>
 
