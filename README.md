@@ -1,4 +1,4 @@
-# ADC__MCP3008__FPGA
+# ADC__MCP3008__SPI__FPGA
 ## MCP3004/MCP3008
 MCP3004/MCP3008 are anolog-to-digital converters. They are used to adapt the anolog siganal and transfrt<br > 
 the anolog signal into ten bit digital signal.<br>
