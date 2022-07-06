@@ -1,5 +1,5 @@
 //top level module
-module adc_3008(clk, rst, cs, mosi, sck, miso, start, seg0, seg1, seg2, seg3, seg4, seg5);//a
+module adc_3008(clk, rst, cs, mosi, sck, miso, start, seg0, seg1, seg2, seg3, seg4, seg5);//a //B
 input clk, rst;
 input miso;
 input start;
