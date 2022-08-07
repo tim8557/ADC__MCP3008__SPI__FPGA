@@ -1,4 +1,4 @@
-//Binary-Coded-Decimal
+//Binary-Coded-Decimal //abc
 module bcd_8421 (clk, rst, data, unit, ten, hun, thou, ten_thou, hun_thou);
 input clk, rst;
 input [19:0] data;
